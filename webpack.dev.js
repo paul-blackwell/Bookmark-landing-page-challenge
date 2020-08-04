@@ -8,6 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = merge(common, {
     mode: 'development',
     entry: './src/index.js',
+    devtool: 'eval-cheap-source-map', // Stops a devTools warning 
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')

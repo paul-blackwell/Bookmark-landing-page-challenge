@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    margin: 4.8rem 0;
+
+    &__home-link {
+
+    }
+
+    &__logo {
+        height: 2.4rem;
+        width: auto;
+    }
+
+    &__ul {
+        display: flex;
+    }
+
+    &__li {
+       margin: 0 2.4rem; 
+    }
+
+    &__li:last-child {
+        margin-right: 0; 
+    }
+
+    &__link {
+
+    }
+
+}
