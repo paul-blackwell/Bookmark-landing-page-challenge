@@ -1,0 +1,11 @@
+// This doesn’t belong in the components will have to move
+.img-background {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: $primarySoftBlue;
+    height: 30rem;
+    width: 100vw;
+    border-radius: 30rem 0 0 30rem;
+    z-index: -1;
+}

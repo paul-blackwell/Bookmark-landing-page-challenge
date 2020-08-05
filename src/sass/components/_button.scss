@@ -1,14 +1,18 @@
 .btn {
     border-radius: .4rem;
     padding: .8rem 3.2rem;
-    text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
     box-shadow: 0 .8rem .8rem hsla(229, 31%, 21%, .2);
-
+    font-weight: 400;
+    letter-spacing: 1.5px;
 
     &:active, &:focus {
         outline: none;
+    }
+
+    &:not(:first-child) {
+        margin-right: 1.5rem;
     }
     
 }
@@ -32,6 +36,7 @@
 .btn-primary--red {
     background-color: $primarySoftRed;
     border: 2px solid $primarySoftRed;
+    text-transform: uppercase;
 
     &, &:link, &:visited {
         background-color: $primarySoftRed;
