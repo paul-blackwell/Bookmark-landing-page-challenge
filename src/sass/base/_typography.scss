@@ -5,7 +5,7 @@
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.7;
 }
 
@@ -31,4 +31,13 @@ body {
 
  .link {
      text-decoration: none;
+
+     &, &:link, &:visited {
+        color: $neutralDarkBlue;
+    }
+
+    &:hover {
+        color: $primarySoftRed;
+    }
+
  }

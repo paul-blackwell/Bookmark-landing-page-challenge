@@ -1,30 +1,61 @@
 .btn {
-    background-color: $neutralWhite;
-    border: 2px solid #000000;
     border-radius: .4rem;
-    padding: 1.6rem .8rem;
+    padding: .8rem 3.2rem;
     text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 .8rem .8rem hsla(229, 31%, 21%, .2);
 
-    &, &:link, &:visited {
-        
-    }
-    
-    
-    &:hover {
-       
-        &::after {
-           
-        }
-    }
-    
+
     &:active, &:focus {
-        
+        outline: none;
     }
     
-
-    &::after {
-       
-    }
-
 }
 
+.btn-primary {
+    background-color: $primarySoftBlue;
+    border: 2px solid $primarySoftBlue;
+
+    &, &:link, &:visited {
+        background-color: $primarySoftBlue;
+        color: $neutralWhite;
+    }
+
+    &:hover {
+        background-color: $neutralWhite;
+        color: $primarySoftBlue;
+    }
+    
+}
+
+.btn-primary--red {
+    background-color: $primarySoftRed;
+    border: 2px solid $primarySoftRed;
+
+    &, &:link, &:visited {
+        background-color: $primarySoftRed;
+        color: $neutralWhite;
+    }
+
+    &:hover {
+        background-color: $neutralWhite;
+        color: $primarySoftRed;
+    }
+}
+
+.btn-secondary {
+    background-color: $neutralLightGray;
+    border: 2px solid $neutralLightGray;
+
+
+    &, &:link, &:visited {
+        color: $neutralDarkBlue;
+    }
+
+    &:hover {
+        background-color: $neutralWhite;
+        border: 2px solid $neutralDarkBlue;
+        color: $neutralDarkBlue;
+    }
+}
