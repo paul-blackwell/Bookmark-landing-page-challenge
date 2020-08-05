@@ -2,6 +2,7 @@
     display: grid;
     //grid-template-columns: repeat(auto-fill, minmax(47rem, 1fr));
     grid-template-columns: repeat(2,1fr);
+    align-items: center;
 
 
     &__img {
